@@ -3,12 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
     "build": "next build",
-    "start": "next start",
-    "lint": "next lint",
-    "export": "next export",
-    "install": "npm install --legacy-peer-deps"
+  "start": "next start",
+  "vercel-build": "next build"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.6.0",
