@@ -15,21 +15,23 @@ export default function Home() {
         {/* <div className="absolute inset-0 bg-black opacity-60"></div> */}
 
         {/* Nested Grid */}
-        <div className="relative pr-28 z-10 grid grid-cols-3 w-full h-full">
-          <div className="flex flex-col items-center justify-center h-full">
-            <div className="grid rounded pl-28 items-center content-center text-left h-3/6 w-full">
+        <div className="relative z-10 grid grid-cols-1 lg:grid-cols-3 w-full h-full px-4 lg:px-28">
+          {/* Left Column */}
+          <div className="flex flex-col items-center justify-center h-full py-8 lg:py-0">
+            <div className="grid rounded lg:pl-28 items-center content-center text-left h-3/6 w-full">
               {/* Grid for future use */}
             </div>
           </div>
 
-          {/* Empty center column for spacing */}
-          <div className="flex items-center justify-center h-full"></div>
+          {/* Center column for spacing on large screens */}
+          <div className="hidden lg:flex items-center justify-center h-full"></div>
 
-          <div className="flex flex-col items-left justify-center h-full">
-            <h1 className="text-5xl uppercase font-bold text-white">
+          {/* Right Column */}
+          <div className="flex flex-col items-left justify-center h-full py-8 lg:py-0">
+            <h1 className="text-3xl sm:text-4xl lg:text-5xl uppercase font-bold text-white">
               The Hosebed
             </h1>
-            <p className="mt-4 text-xl text-left text-white">
+            <p className="mt-4 text-lg sm:text-xl lg:text-2xl text-left text-white">
               At The Hosebed, we explore front-line experiences and in-depth
               discussions on fire safety, tactics, and technology. Whether
               you're a seasoned firefighter, an aspiring first responder, or
