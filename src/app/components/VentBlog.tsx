@@ -3,7 +3,7 @@ import { faInfo } from "@fortawesome/free-solid-svg-icons";
 
 export default function VentBlog() {
   return (
-    <article className="container mx-auto mt-10 pt-10 px-5">
+    <article className="container bg-black mx-auto mt-10 pt-10 px-5">
       <header className="text-4xl pl-8">
         {/* BLOG TITLE */}
         <h1>Vertical Venting Operations</h1>
