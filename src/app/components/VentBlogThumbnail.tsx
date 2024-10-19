@@ -6,11 +6,12 @@ const VentBlogThumbnail = () => {
     <div className="w-full max-w-md p-6 bg-zinc-900 rounded-lg shadow-md">
       <Link href="/blog/post-slug">
         <Image
-          src="/images/ladder-vent.png" // Path to image in the public folder
+          src="/images/jay-heike-PdEieK6e3CM-unsplash.png" // Path to image in the public folder
           alt="Ladder Vent Blog Thumbnail"
           className="rounded-lg"
           width={600}
           height={400}
+          priority // Improve loading performance for critical images
         />
       </Link>
       <div className="mt-4">
