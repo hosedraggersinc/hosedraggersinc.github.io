@@ -26,7 +26,7 @@ const VentBlogThumbnail = () => {
             type="button"
             className="mt-4 px-4 py-2 rounded bg-gradient-to-r from-zinc-500 to-slate-500 hover:from-pink-500 hover:to-rose-500"
           >
-            Read More
+            Read
           </button>
         </a>
       </div>
