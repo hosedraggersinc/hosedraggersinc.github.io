@@ -52,11 +52,11 @@ export default function NavBar() {
           </button>
         </div>
 
-        {/* Nav Links */}
+        {/* Nav Links - Desktop Menu */}
         <ul
-          className={`flex space-x-6 lg:flex ${
-            isMobileMenuOpen ? "flex" : "hidden"
-          } lg:block`}
+          className={`hidden lg:flex space-x-6 ${
+            isMobileMenuOpen ? "hidden" : "flex"
+          }`}
         >
           <li>
             <Link
