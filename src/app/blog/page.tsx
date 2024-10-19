@@ -12,7 +12,7 @@ export default function Page() {
         </div>
 
         {/* Hero Section */}
-        <div className="hero flex flex-col items-center justify-center py-4 md:py-8 text-center">
+        <div className="hero flex flex-col items-center justify-start py-6 md:py-10 text-center">
           <h1 className="uppercase text-3xl md:text-4xl text-zinc-300 mb-2">
             Hosebed Chronicles: Exploring the World of Quarterbacking
           </h1>
@@ -20,7 +20,7 @@ export default function Page() {
             <a href="#readmore">
               <button
                 type="button"
-                className="px-6 py-2 rounded bg-gradient-to-r from-zinc-500 to-slate-500 hover:from-pink-500 hover:to-rose-500 transition duration-300"
+                className="mt-2 px-6 py-2 rounded bg-gradient-to-r from-zinc-500 to-slate-500 hover:from-pink-500 hover:to-rose-500 transition duration-300"
               >
                 Read More
               </button>
