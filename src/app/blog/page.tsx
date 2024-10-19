@@ -12,7 +12,7 @@ export default function Page() {
         </div>
 
         {/* Hero Section */}
-        <div className="hero flex flex-col items-center justify-start py-8 md:py-10 text-center">
+        <div className="hero flex flex-col items-center justify-start py-8 md:pt-20 md:pb-2.5 text-center">
           <h1 className="uppercase text-3xl md:text-4xl text-zinc-300 mb-2">
             Hosebed Chronicles: Exploring the World of Quarterbacking
           </h1>
