@@ -19,13 +19,9 @@ const HoseBlogThumbnail = () => {
         <h2 className="text-xl uppercase pt-4 font-bold text-white">
           Hose Deployment
         </h2>
-        <p className="mt-2 text-gray-600">
-          We look at an example of vertical venting from a video posted by
-          @bluecollarfiremen and review some of the comments by the Monday
-          Quarterbacks.
-        </p>
+        <p className="mt-2 text-gray-600">Coming Soon!</p>
         {/* Link to read more about Vent Operations */}
-        <a href="/blog/VentOps">
+        <a href="#">
           <button
             type="button"
             className="mt-4 px-4 py-2 rounded bg-gradient-to-r from-zinc-500 to-slate-500 hover:from-pink-500 hover:to-rose-500"
