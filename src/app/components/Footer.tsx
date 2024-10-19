@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Footer() {
   return (
@@ -51,6 +52,10 @@ export default function Footer() {
             <Link href="https://instagram.com" className="hover:text-gray-300">
               Instagram
             </Link>
+            <Image
+              src="/images/adobe-express-qr-code.png"
+              alt="Hose Draggers Inc."
+            ></Image>
           </div>
         </div>
       </div>
