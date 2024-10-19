@@ -1,19 +1,18 @@
+import Link from "next/link";
 import Image from "next/image";
 
 const VentBlogThumbnail = () => {
   return (
     <div className="w-full max-w-md p-6 bg-zinc-900 rounded-lg shadow-md">
-      <a href="/blog/post-slug">
-        <div className="cursor-pointer">
-          <Image
-            src="/images/ladder-vent.png" // Path to image in the public folder
-            alt="Ladder Vent Blog Thumbnail"
-            className="rounded-lg"
-            width={600}
-            height={400}
-          />
-        </div>
-      </a>
+      <Link href="/blog/post-slug">
+        <Image
+          src="/images/ladder-vent.png" // Path to image in the public folder
+          alt="Ladder Vent Blog Thumbnail"
+          className="rounded-lg"
+          width={600}
+          height={400}
+        />
+      </Link>
       <div className="mt-4">
         <h2 className="text-xl uppercase font-bold text-white-800">
           Vertical Venting Operations
