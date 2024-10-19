@@ -56,8 +56,8 @@ export default function Footer() {
             <Image
               src="/images/adobe-express-qr-code.png"
               alt="Hose Draggers Inc."
-              width={6}
-              height={4}
+              width={60}
+              height={40}
             ></Image>
           </div>
         </div>
