@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
+import { posix } from "path/win32";
 
 export default function Footer() {
   return (
@@ -55,6 +56,8 @@ export default function Footer() {
             <Image
               src="/images/adobe-express-qr-code.png"
               alt="Hose Draggers Inc."
+              width={6}
+              height={4}
             ></Image>
           </div>
         </div>
