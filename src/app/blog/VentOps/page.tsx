@@ -12,7 +12,7 @@ export default function Home() {
         </div>
 
         {/* Hero Section */}
-        <div className="ventops_hero flex flex-col items-center justify-center py-10 md:py-20">
+        <div className="ventops_hero flex flex-col items-center justify-center py-40 md:py-20">
           <div className="relative px-4 md:px-28 grid grid-cols-1 w-full h-full">
             <div className="flex flex-col items-center md:items-start text-center md:text-left">
               {/* Heading */}
