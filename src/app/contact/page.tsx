@@ -9,7 +9,7 @@ export default function Contact() {
 
       {/* Contact Section */}
       <main className="flex-grow flex flex-col items-center justify-center bg-gray-100 py-10 px-5">
-        <h1 className="text-3xl md:text-5xl font-bold text-center mb-8">
+        <h1 className="text-3xl md:text-5xl font-bold text-slate-500 text-center mb-8">
           Contact Us
         </h1>
 
