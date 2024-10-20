@@ -11,7 +11,7 @@ export default function Home() {
         <div className="absolute top-0 left-0 w-full">
           <NavBar />
         </div>
-        <div className="ventops_hero flex flex-col items-center justify-center py-10">
+        <div className="ventops_hero bg-black flex flex-col items-center justify-center py-10">
           <div className="relative p-28 grid grid-cols-1 w-full h-full">
             <div className="flex flex-col items-left">
               <div className="uppercase px-28 text-3xl text-zinc-300 text-left">
