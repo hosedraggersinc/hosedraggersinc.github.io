@@ -6,7 +6,7 @@ export default function VentBlog() {
     <article className="container bg-black mx-auto mt-10 pt-10 px-5">
       <header className="text-4xl pl-8">
         {/* BLOG TITLE */}
-        <h1>Vertical Venting Operations</h1>
+        <h1 id="readmore">Vertical Venting Operations</h1>
       </header>
       <section className="flex flex-col">
         <p className="italic">
