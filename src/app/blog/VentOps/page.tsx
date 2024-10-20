@@ -42,7 +42,8 @@ export default function Home() {
                 className="italic text-base md:text-xl mt-6 md:mt-10"
                 style={{ lineHeight: "1.5" }}
               >
-                "Why does LA Fire love to hang out on the roof after they vent?"
+                &quot;Why does LA Fire love to hang out on the roof after they
+                vent?&quot;
               </div>
             </div>
           </div>

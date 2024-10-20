@@ -31,7 +31,7 @@ export default function Home() {
             <h1 className="text-3xl sm:text-4xl lg:text-5xl uppercase font-bold text-white">
               The Hosebed
             </h1>
-            <p className="mt-4 text-lg sm:text-xl lg:text-2xl text-left text-white">
+            {/*<p className="mt-4 text-lg sm:text-xl lg:text-2xl text-left text-white">
               At The Hosebed, we explore front-line experiences and in-depth
               discussions on fire safety, tactics, and technology. Whether
               you're a seasoned firefighter, an aspiring first responder, or
@@ -42,7 +42,7 @@ export default function Home() {
               Join us as we honor the bravery, skill, and dedication of those
               who serve, while keeping you informed and prepared for whatever
               comes next.
-            </p>
+            </p>*/}
           </div>
         </div>
       </main>

@@ -1,6 +1,5 @@
 import Link from "next/link";
 import Image from "next/image";
-import { posix } from "path/win32";
 
 export default function Footer() {
   return (
