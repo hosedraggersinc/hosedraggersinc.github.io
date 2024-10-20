@@ -1,6 +1,7 @@
 import VentBlogThumbnail from "../components/VentBlogThumbnail";
 import HoseBlogThumbnail from "../components/HoseBlogThumbnail";
 import NavBar from "../components/NavBar";
+import Footer from "../components/Footer";
 
 export default function Page() {
   return (
@@ -43,6 +44,7 @@ export default function Page() {
           </div>
         </div>
       </main>
+      <Footer />
     </div>
   );
 }
