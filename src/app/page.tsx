@@ -28,9 +28,9 @@ export default function Home() {
 
           {/* Right Column */}
           <div className="flex flex-col items-left justify-center h-full py-8 lg:py-0">
-            <h1 className="text-3xl sm:text-4xl lg:text-5xl uppercase font-bold text-white">
+            {/*<h1 className="text-3xl sm:text-4xl lg:text-5xl uppercase font-bold text-white">
               The Hosebed
-            </h1>
+            </h1>*/}
             {/*<p className="mt-4 text-lg sm:text-xl lg:text-2xl text-left text-white">
               At The Hosebed, we explore front-line experiences and in-depth
               discussions on fire safety, tactics, and technology. Whether
